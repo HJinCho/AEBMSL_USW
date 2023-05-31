@@ -1,0 +1,172 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:black;
+
+}
+
+
+
+/* ---- */
+
+.intro_bg{
+    background-color: white;
+    width:100%;
+    height: 150px;
+    border-bottom: 2px solid lightgray;
+}
+
+.header{
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    height: 150px;
+}
+
+
+.searchArea > a > img {
+    width: 300px;
+    height: auto;
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    float: left;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: 30px;
+    line-height: 86px;
+    width: calc(1280px - 300px);
+}
+
+.nav > li{
+    margin-left: 60px;
+    cursor: pointer;
+}
+.nav > li > a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* title */
+h1 {
+    width: auto;
+    text-indent: 10px;
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid lightgray;
+}
+
+
+/*member*/
+
+.member_page {
+    width: 100%;
+    height: 1800px;
+    padding-top: 100px;
+}
+
+
+.member_profile {
+    width: 1280px;
+    margin: 49px auto;
+    height: 1700px;
+    margin-top: -10px;
+}
+
+.graduate {
+    padding-top: 120px;
+}
+
+/*member_table*/
+.member_contents {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+.member_contents > .member_main img {
+    width: 260px;
+    height: 340px;
+    margin-bottom: 20px;
+}
+
+.member_contents > .member_main {
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member_contents> h2 {
+    margin-bottom: -20px;
+}
+.member_contents > h4 {
+    color:rgba(94, 93, 93, 0.8);
+    font-weight: 600;
+    margin-bottom: -40px;
+}
+
+.member_email {
+    width: 260px;
+    display: flex;
+    border-collapse: collapse;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+.member_email td.email {
+    flex: 2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 15px;
+    font-weight: bold;
+    color:#36362E
+  }
+  
+.member_email td.adress {
+    flex: 3;
+    padding-left: 15px;
+  }
+
+/* footer */
+footer {
+    display: flex;
+    background: white;
+    padding: 30px;
+    border-top: 5px solid #578270;
+}
+footer > div:first-child {
+    flex: 4;
+    text-align: center;
+    color: black;
+}
+footer > div:last-child {
+    flex: 9;
+    color : black;
+}
+
+footer > div > img {
+    width: 300px;
+    height: auto;
+    padding-top: -20px;
+}
